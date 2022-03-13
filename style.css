@@ -287,7 +287,7 @@ footer p{
     .follower{
         display: flex;
         width: 95%;
-       margin: 0 auto 30px;
+        margin: 0 auto 30px;
         box-shadow: 0 0 15px 0 rgba(0.2, 0.2, 0.10, 0.1);
         border-radius: 30px;
         height: 90px;
@@ -298,15 +298,15 @@ footer p{
     }
     .youtube{
         width: 33%;
-        padding: 30px 20px;
+        padding: 15px 20px;
     }
     .facebook{
         width: 33%;
-        padding: 30px 20px;
+        padding: 15px 20px;
     }
     .instagram{
         width: 33%;
-        padding: 30px 20px;
+        padding: 15px 20px;
     }
     
     /* End of Section 4 */
