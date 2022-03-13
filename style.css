@@ -163,3 +163,169 @@ footer p{
     font-weight: 300;
     color: 	#FF00FF;
 }
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #sec-1{
+        display: flex;
+        padding: 10px 10px;
+        margin: 10px;
+    }
+    .text-color{
+        color: midnightblue;
+    }
+    .header{
+        width: 20%;
+        text-align: justify;
+    }
+    .header h1{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .header p{
+        padding: 1px 0 10px;
+    }
+    .header img{
+        width: 40%;
+    }
+    .link-color-1{
+        text-decoration: none;
+        text-align: center;
+        background-image: linear-gradient(180deg, tomato, forestgreen);
+        padding: 10px 30px;
+        border-radius: 7px;
+    }
+    /* End Of Header Part */
+    
+    #sec-2{
+        display: flex;
+        padding: 10px 15px;
+        margin-bottom: 30px;
+        background-image: url(images/7.png);
+        background-repeat: no-repeat;
+    }
+    .about-me{
+        width: 20%;
+        padding: 10px 2px;
+        text-align: justify;
+    }
+    .about-me img{
+        width: 30%;
+    }
+    .about-me h2{
+        padding: 10px -20px;
+        margin-top: 35px;
+        font-weight: bold;
+    }
+    .about-me p{
+        padding: 0 -20px 15px;
+        margin: 10px 0;
+    }
+    .link-color-2{
+        text-decoration: none;
+        text-align: center;
+        background-image: linear-gradient(180deg,  midnightblue, mediumorchid);
+        padding: 5px 10px;
+        border-radius: 7px;
+    }
+    
+    /*  End of Body */
+    
+    #sec-3{
+        margin-bottom: 40px;
+    }
+    .text{
+        text-align: center;
+        color: mediumorchid;
+    }
+    .text h3{
+        font-size: 8px;
+        font-weight: 500;
+        padding: 6px 3px;
+    }
+    .text p{
+        margin-bottom: 15px;
+    }
+    
+    .recipe{
+        display: flex;
+        width: 50%;
+        margin: 5px 5px 0 5px;
+    }
+    .recipe-box {
+        width: 10%;
+        margin: 0px 30px 25px;
+        box-shadow: 5px 7px 40px rgba(0.5, 0, 0.10, 0.6);
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .recipe-box img{
+        width: 30%;
+        display: grid;
+        border-radius: 15px;
+        padding: 0 0 15px;
+    }
+    .recipe-text h3{
+        color: cyan;
+        font-size: 10px;
+        text-align: center;
+        padding: 0 10px 5px 0;
+    }
+    .recipe-text p{
+        text-align: justify;
+        padding-top: 5px;
+    }
+    
+    /*  End of  SEction 3 */
+    
+    .follower{
+        display: flex;
+        width: 95%;
+       margin: 0 auto 30px;
+        box-shadow: 0 0 15px 0 rgba(0.2, 0.2, 0.10, 0.1);
+        border-radius: 30px;
+        height: 90px;
+    }
+    .follower h1{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .youtube{
+        width: 33%;
+        padding: 30px 20px;
+    }
+    .facebook{
+        width: 33%;
+        padding: 30px 20px;
+    }
+    .instagram{
+        width: 33%;
+        padding: 30px 20px;
+    }
+    
+    /* End of Section 4 */
+    
+    footer{
+        width: 100%;
+        height: 125px;
+        text-align: center;
+        background-color: midnightblue;
+    }
+    footer h2{
+        font-size: 15px;
+        font-weight: 400;
+        padding: 20px 0 2px;
+    }
+    .color-1{
+        color: #FF69B4;
+    }
+    .color-2{
+        color: 	chocolate;
+    }
+    footer p{
+        font-weight: 300;
+        color: 	forestgreen;
+    }
+    
+  }
