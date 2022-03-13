@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#sec-1{
+    display: flex;
+    padding: 20px 30px;
+    margin: 20px;
+}
+.text-color{
+    color: cyan;
+}
+.header{
+    width: 50%;
+    text-align: justify;
+}
+.header h1{
+    font-size: 40px;
+    margin-top: 80px;
+}
+.header p{
+    padding: 2px 0 25px;
+}
+.header img{
+    width: 100%;
+}
+.link-color-1{
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(180deg, cyan, blue);
+    padding: 10px 30px;
+    border-radius: 7px;
+}
+/* End Of Header Part */
+
+#sec-2{
+    display: flex;
+    padding: 20px 30px;
+    margin-bottom: 60px;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
+.about-me{
+    width: 50%;
+    padding: 20px 5px;
+    text-align: justify;
+}
+.about-me img{
+    width: 100%;
+}
+.about-me h2{
+    padding: 30px -50px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+.about-me p{
+    padding: 0 -50px 35px;
+    margin: 20px 0;
+}
+.link-color-2{
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(180deg, #FF69B4 , #00BFFF);
+    padding: 10px 30px;
+    border-radius: 7px;
+}
+
+/*  End of Body */
+
+#sec-3{
+    margin-bottom: 100px;
+}
+.text{
+    text-align: center;
+    color: blueviolet;
+}
+.text h3{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 10px;
+}
+.text p{
+    margin-bottom: 40px;
+}
+
+.recipe{
+    display: flex;
+    width: 100%;
+    margin: 10px 10px 0 5px;
+}
+.recipe-box {
+    width: 30%;
+    margin: 0px 30px 25px;
+    box-shadow: 5px 7px 40px rgba(0.5, 0, 0.10, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+}
+.recipe-box img{
+    width: 100%;
+    display: grid;
+    border-radius: 15px;
+    padding: 0 0 15px;
+}
+.recipe-text h3{
+    color: midnightblue;
+    font-size: 25px;
+    text-align: center;
+    padding: 0 10px 5px 0;
+}
+.recipe-text p{
+    text-align: justify;
+    padding-top: 15px;
+}
+
+/*  End of  SEction 3 */
+
+.follower{
+    display: flex;
+    width: 95%;
+   margin: 0 auto 80px;
+    box-shadow: 0 0 15px 0 rgba(0.2, 0.2, 0.10, 0.1);
+    border-radius: 30px;
+    height: 200px;
+}
+.follower h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.youtube{
+    width: 33%;
+    padding: 70px 80px;
+}
+.facebook{
+    width: 33%;
+    padding: 70px 50px;
+}
+.instagram{
+    width: 33%;
+    padding: 70px 50px;
+}
+
+/* End of Section 4 */
+
+footer{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background-color: blueviolet;
+}
+footer h2{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 80px 0 2px;
+}
+.color-1{
+    color: cyan;
+}
+.color-2{
+    color: 	#C71585;
+}
+footer p{
+    font-weight: 300;
+    color: 	#FF00FF;
+}
