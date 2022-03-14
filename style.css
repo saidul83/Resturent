@@ -21,6 +21,7 @@
 }
 .header p{
     padding: 2px 0 25px;
+    letter-spacing: 1px;
 }
 .header img{
     width: 100%;
@@ -31,6 +32,7 @@
     background-image: linear-gradient(180deg, cyan, blue);
     padding: 10px 30px;
     border-radius: 7px;
+    color: aliceblue;
 }
 /* End Of Header Part */
 
@@ -64,6 +66,7 @@
     background-image: linear-gradient(180deg, #FF69B4 , #00BFFF);
     padding: 10px 30px;
     border-radius: 7px;
+    color: aliceblue;
 }
 
 /*  End of Body */
@@ -99,7 +102,7 @@
 .recipe-box img{
     width: 100%;
     display: grid;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 0 0 15px;
 }
 .recipe-text h3{
@@ -185,7 +188,7 @@ footer p{
     }
     .header p{
         padding: 1px 0 10px;
-        font-size: 15px;
+        font-size: 10px;
     }
     .header img{
         width: 110%;
@@ -194,8 +197,9 @@ footer p{
         text-decoration: none;
         text-align: center;
         background-image: linear-gradient(180deg, tomato, forestgreen);
-        padding: 10px 30px;
+        padding: 10px 10px;
         border-radius: 7px;
+        color: antiquewhite;
     }
     /* End Of Header Part */
     
@@ -223,7 +227,7 @@ footer p{
     .about-me p{
         padding: 0 -20px 15px;
         margin: 10px 0;
-        font-size: 15px;
+        font-size: 10px;
     }
     .link-color-2{
         text-decoration: none;
@@ -231,6 +235,7 @@ footer p{
         background-image: linear-gradient(180deg,  midnightblue, mediumorchid);
         padding: 5px 10px;
         border-radius: 7px;
+        color: azure;
     }
     
     /*  End of Body */
@@ -258,7 +263,7 @@ footer p{
         margin: 5px 5px 0 5px;
     }
     .recipe-box {
-        width: 31%;
+        width: 35%;
         margin: 0px 10px 25px;
         box-shadow: 5px 7px 40px rgba(0.5, 0, 0.10, 0.6);
         padding: 30px;
@@ -266,7 +271,7 @@ footer p{
     }
     .recipe-box img{
         width: 100%;
-        display: grid;
+        /* display: grid; */
         border-radius: 15px;
         padding: 0 0 15px;
     }
@@ -278,7 +283,6 @@ footer p{
     }
     .recipe-text p{
         text-align: justify;
-        padding-top: 5px;
         font-size: 10px;
     }
     
@@ -298,15 +302,15 @@ footer p{
     }
     .youtube{
         width: 33%;
-        padding: 15px 20px;
+        padding: 10px 20px;
     }
     .facebook{
         width: 33%;
-        padding: 15px 20px;
+        padding: 10px 20px;
     }
     .instagram{
         width: 33%;
-        padding: 15px 20px;
+        padding: 10px 20px;
     }
     
     /* End of Section 4 */
@@ -330,7 +334,7 @@ footer p{
     }
     footer p{
         font-weight: 300;
-        color: 	forestgreen;
+        color: 	mediumslateblue;
     }
     
   }
